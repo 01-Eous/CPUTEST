@@ -13,13 +13,13 @@
 - 对于 Windows
 
 ```
-g++ Main.cpp -o Main.exe
+g++ Main.cpp -o Main.exe -std=c++14
 ```
 
 - 对于 Linux
 
 ```
-g++ Main.cpp -o Main
+g++ Main.cpp -o Main -std=c++14
 ```
 
 得到可执行文件 `Main`。
